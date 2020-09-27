@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/cropimage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="Enter Your Name"
+        android:inputType="textCapWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8E9790"
+        android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+    <EditText
+        android:id="@+id/city"
+        android:hint="Enter Your City"
+        android:inputType="textCapWords"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8E9790"
+        android:padding="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:text="ADD"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="#8E9790"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
